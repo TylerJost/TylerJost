@@ -1,4 +1,4 @@
-Check me out on my website: jost.engineer
+Check me out on my website: [jost.engineer](jost.engineer)
 
 <!---
 TylerJost/TylerJost is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
