@@ -1,5 +1,5 @@
 # Hi I'm Tyler
-I'm a 4th year graduate student in the [Brock Lab](https://www.brocklab.com/) at UT Austin. I combine single-cell transcriptomics, imaging, and deep learning to better understand phenotype composition, stability, and change in *in-vitro* cancer cell lines. 
+I'm a 5th year graduate student in the [Brock Lab](https://www.brocklab.com/) at UT Austin. I combine single-cell transcriptomics, imaging, and deep learning to better understand phenotype composition, stability, and change in *in-vitro* cancer cell lines. 
 
 Email: tyler_jost@utexas.edu
 
