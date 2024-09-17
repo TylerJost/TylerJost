@@ -1,7 +1,6 @@
 # Hi I'm Tyler
-I'm a 5th year graduate student in the [Brock Lab](https://www.brocklab.com/) at UT Austin. I combine single-cell transcriptomics, imaging, and deep learning to better understand phenotype composition, stability, and change in *in-vitro* cancer cell lines. 
-
-Email: tyler_jost@utexas.edu
+I'm a postdoctoral research fellow in the [Nirmal Lab](https://nirmallab.com) at Harvard Medical School/Brigham and Women's Hospital. I combine single-cell transcriptomics, imaging, and deep learning to better understand cancer.
+Email: tjost@bwh.harvard.edu
 
 LinkedIn: www.linkedin.com/in/tyler-jost
 
