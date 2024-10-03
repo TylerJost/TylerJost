@@ -9,6 +9,8 @@ If you are interested in trained models, imaging data, or more details, please r
 TylerJost/TylerJost is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+<!---
 # Project Overview
 ## In Progress Projects
 ### Statistical Distance for Marker Identification
@@ -41,3 +43,4 @@ In the field of mathematical biology, there is a strong need for the reuse of da
 ![](/figures/databaseRepresentation.png)
 
 The entity relationship diagram for the database. 
+--->
