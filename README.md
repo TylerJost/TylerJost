@@ -11,17 +11,23 @@ TylerJost/TylerJost is a ✨ special ✨ repository because its `README.md` (thi
 You can click the Preview link to take a look at your changes.
 --->
 
-<!---
 # Project Overview
-## In Progress Projects
-### Statistical Distance for Marker Identification
-Using an eco-evolutionary approach to cancer is of key importance when understanding cancer. However, it's uncommon even for *in-vitro* work to take into account distinctive phenotypes. Often, these phenotypes are only discovered after endpoint assays such as single-cell RNA sequencing. To address this, I used the Earth Mover's Distance (EMD) to quantify how separated distinctive phenotypes were using only one gene. Crucially, EMD has properties that make it able to identify genes that would be otherwised overlooked with other methods because EMD is sensitive to outlier populations. I was able to find genes that provided excellent separation identified phenotypes through gene expression, and my coworker isolated them through flow activated cell sorting. I then validated this separation using 3'-Tag RNA seq. 
+## Cluster Cleaver
+clusterCleaver is a computational pipeline for analyzing cluster data in single-cell RNA sequencing (scRNAseq). You can check out our paper [here](https://www.nature.com/articles/s41540-024-00441-6). This is a scanpy-compatible package which leverages the Earth Mover's Distance (EMD) to find genes which can be used to distinguish between clusters of cells. We also validated that our method worked, separating two breast cancer transcriptomic subpopulations. I generated the algorithm and performed the sequencing analysis. 
 
 ![](/figures/231Expression.png)
 
 UMAP and gene expression histograms for a top MDA-MB-231 cell line marker, ESAM.
 
-Link: TBD
+Repo: https://github.com/brocklab/clusterCleaver
+
+## This Week in Music
+This week in music is a personal project I started to let myself know about live bands playing near me. I first scrape upcoming concerts near me. However, these are often presented like:
+> Australian punk night presents: THE CHATS / COSMIC PSYCHOS / THE SCHIZOPHONICS
+
+This is pretty hard to parse with just a simple regex. So I finetuned a BERT LLM to extract these names. I then used the Spotify API to add songs from these artists into a playlist for the upcoming week. Originally it was just for Austin, TX but I've now expanded it to Boston and hopefully can do it for more cities.
+
+Repo: https://github.com/TylerJost/twia
 
 ### Cell Morphology for Transcriptomic Subpopulations
 Cell morphology work often focuses on shape and texture, and typically identification is not done on subpopulations *within* a cell line but instead on other features such as metastatic variability, gene deletions, etc. We wanted to know if cells with transcriptomic changes within a cell line could also be identified using basic phase contrast imaging. To do so, we used our isolated populations found from the statistical approach mentioned above. We labeled each subpopulations and used a convolutional neural network to identify subpopulation. We found that, despite being relatively unperturbed, intra cell line populations are identifiable through computer vision. Additionally, we found that including neighborhood interactions instead of just shape and texture (possible primarily due to our use of deep learning) allowed us to improve our classification abilities. 
@@ -29,6 +35,9 @@ Cell morphology work often focuses on shape and texture, and typically identific
 <img src=/figures/increasingBB.png width=50% height=50%>
 The AUC increases (bottom) until the bounding box is made to be too large. Example images are on the top panel
 
+Repo: https://github.com/brocklab/transcriptomicClusterMorph
+
+<!---
 Link: TBD
 ## Unpublished Projects
 ### Deep Learning for Raman Spectroscopy
