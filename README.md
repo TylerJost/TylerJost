@@ -1,7 +1,7 @@
 # Hi I'm Tyler
 I'm a postdoctoral research fellow in the [Laboratory for Systems Pharmacology](https://labsyspharm.org/) and [Nirmal Lab](https://nirmallab.com) at Harvard Medical School/Brigham and Women's Hospital. I combine single-cell transcriptomics, imaging, and deep learning to better understand cancer.
 
-Email: tjost@bwh.harvard.edu
+Email: ty.jost@gmail.com
 
 LinkedIn: www.linkedin.com/in/tyler-jost
 
